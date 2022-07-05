@@ -2,7 +2,7 @@ const request = require('request');
 const axios = require('axios');
 const expect  = require('chai').expect;
 
-describe('Ramani Backend Assessment', function() {
+describe('Backend Assessment', function() {
   describe('Step 1', function() {
     it('Will return status code for correct route', function(done) {
       request('http://localhost:2222/api/ping', function(error, response, body) {
